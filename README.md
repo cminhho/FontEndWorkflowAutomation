@@ -15,7 +15,7 @@ $npm init
 ## YEOMAN
 Yeoman helps you to kickstart new project, prescribing best practices and tools to help you stay productive
 ### YO
-Yo scaffolds out a new application, writing your Grunt configuration and pulling in relevant Grunt tasks and Bower dependencies that you might need for your build.
+[Yo](http://bower.io/) scaffolds out a new application, writing your Grunt configuration and pulling in relevant Grunt tasks and Bower dependencies that you might need for your build.
 
 ```sh
  $npm install -g yo
