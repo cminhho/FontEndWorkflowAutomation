@@ -1,6 +1,7 @@
 # FontEndWorkflowAutomation
 
-## NPM is a NodeJs package manager, publishes and manages node programs written in JavaScript and runs under Node.js platform.
+## NPM 
+NPM is a NodeJs package manager, publishes and manages node programs written in JavaScript and runs under Node.js platform.
 $npm init
 
 ```sh
@@ -11,7 +12,8 @@ $npm init
  $npm update
 ```
 
-## YEOMAN: yeoman helps you to kickstart new project, prescribing best practices and tools to help you stay productive
+## YEOMAN
+Yeoman helps you to kickstart new project, prescribing best practices and tools to help you stay productive
 ### YO: scaffolds out a new application, writing your Grunt configuration and pulling in relevant Grunt tasks and Bower dependencies that you might need for your build.
 
 ```sh
@@ -22,7 +24,8 @@ $npm init
  $yo angular
 ```
 
-### GRUNT: is a way to automate operations and to performing repetitive tasks. Once you have done the configuratio the less work you have to do when doing minification, compilation, deployment, unit testing, image optimisation and etc
+### GRUNT
+Grunt is a way to automate operations and to performing repetitive tasks. Once you have done the configuratio the less work you have to do when doing minification, compilation, deployment, unit testing, image optimisation and etc
 
 ```sh
  $npm install grunt --save-dev
