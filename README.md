@@ -1,4 +1,4 @@
-# FontEndWorkflowAutomation
+# Font-end Workflow Automation
 
 ## NPM 
 NPM is a NodeJs package manager, publishes and manages node programs written in JavaScript and runs under Node.js platform.
@@ -34,3 +34,26 @@ Grunt is a way to automate operations and to performing repetitive tasks. Once y
 ```
 
 Gruntfile.json (Sample minify with Grunt)
+```sh
+grunt.initConfig({
+  clean: {
+    src: ['build/app.js', 'build/vendor.js']
+  },
+  
+  copy: {
+    files: [{
+      src: 'build/app.js',
+      dest: 'build/dist/app.js'
+    }]
+  }
+  
+  concat: {
+    'build/app.js': ['build/vendors.js', 'build/app.js']
+  }
+  
+  // ... other task configurations ...
+  
+});
+ 
+grunt.registerTask('build', ['clean', 'bower', 'browserify', 'concat', 'copy']);
+```
