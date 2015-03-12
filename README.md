@@ -1,7 +1,7 @@
 # Font-end Workflow Automation
 
 ## NPM 
-NPM is a NodeJs package manager, publishes and manages node programs written in JavaScript and runs under Node.js platform.
+[NPM](https://www.npmjs.com/) is a NodeJs package manager, publishes and manages node programs written in JavaScript and runs under Node.js platform.
 $npm init
 
 ```sh
@@ -26,7 +26,7 @@ Yeoman helps you to kickstart new project, prescribing best practices and tools 
 ```
 
 ### GRUNT
-Grunt is a way to automate operations and to performing repetitive tasks. Once you have done the configuratio the less work you have to do when doing minification, compilation, deployment, unit testing, image optimisation and etc
+[Grunt](http://gruntjs.com/) is a way to automate operations and to performing repetitive tasks. Once you have done the configuratio the less work you have to do when doing minification, compilation, deployment, unit testing, image optimisation and etc
 
 ```sh
  $npm install grunt --save-dev
@@ -59,7 +59,7 @@ grunt.registerTask('build', ['clean', 'bower', 'browserify', 'concat', 'copy']);
 ```
 
 ### BOWER
-The Package Manager is used for dependency management, so that you no longer have to manually download and manage your scripts.
+[Bower](http://bower.io/) is the package manager is used for dependency management, so that you no longer have to manually download and manage your scripts.
 
 ```sh
  $npm install -g bower
