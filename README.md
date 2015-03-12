@@ -58,7 +58,7 @@ grunt.initConfig({
 grunt.registerTask('build', ['clean', 'bower', 'browserify', 'concat', 'copy']);
 ```
 
-## BOWER
+### BOWER
 The Package Manager is used for dependency management, so that you no longer have to manually download and manage your scripts.
 
 ```sh
